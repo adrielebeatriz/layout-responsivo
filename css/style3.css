@@ -1,0 +1,51 @@
+s
+			body{
+				font-family: Verdana, Geneva, Tahoma, sans-serif;
+				background-color: rgb(243, 243, 174);
+
+			}
+			header{
+				background-color: #333;
+    			padding: 30px;
+    			text-align: center;
+    			font-size: 35px;
+    			color: white;
+			}
+			article{
+				background-color: bisque;
+				font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+			}
+			#img{
+				width: 100%;
+				border-radius: 50%;
+				border: 1px solid transparent;
+			}
+			footer{
+				background-color: #333;
+			  padding: 10px;
+			  text-align: center;
+			  color: white;
+			}
+			/*tablet*/
+			@media (max-width: 768px) {
+				body{
+					font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+					background-color: antiquewhite;
+				}
+				nav{
+					width: 40vw;
+				}
+				article{
+					width:60vw;
+					float: right;
+				}
+			}
+			/*smartphone*/
+
+			@media(max-width: 425px){
+				nav, article{
+					width: 100%;
+					min-width: 320px;
+					font-family: monospace;
+				}
+			}
